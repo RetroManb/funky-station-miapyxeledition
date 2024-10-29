@@ -1,0 +1,11 @@
+- type: reaction
+  id: Chirumiru
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Milk:
+      amount: 1
+    CirnoPlushJuice:
+      amount: 1
+  products:
+    Chirumiru: 2
