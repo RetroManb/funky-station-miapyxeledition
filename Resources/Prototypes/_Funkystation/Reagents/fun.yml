@@ -3,8 +3,8 @@
   name: reagent-name-cirno
   group: Toxins
   desc: reagent-desc-cirno
-  physicalDesc: reagent-physical-desc-fibrous
-  flavor: fiber
+  physicalDesc: reagent-physical-desc-weird
+  flavor: weird
   color: "#bcecfa"
   metabolisms:
     Poison:
@@ -14,7 +14,3 @@
         damage:
           types:
             Poison: 0.2
-        conditions:
-        - !type:OrganType
-          type: Moth
-          shouldHave: false
